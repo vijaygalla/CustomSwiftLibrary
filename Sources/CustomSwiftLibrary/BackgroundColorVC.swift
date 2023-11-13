@@ -8,8 +8,8 @@ open class BackgroundColorVC: UIViewController {
         super.viewDidLoad()
         self.view.backgroundColor = .cyan
         view.addSubview(label)
-        label.centerXAnchor.constraint(equalTo: view.centerXAnchor, constant: 10).isActive = true
-        label.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 10).isActive = true
+        label.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        label.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
         // Do any additional setup after loading the view.
     }
     
