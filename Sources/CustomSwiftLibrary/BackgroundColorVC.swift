@@ -3,8 +3,8 @@
 
 import UIKit
 
-public class BackgroundColorVC: UIViewController {
-    override public func viewDidLoad() {
+open class BackgroundColorVC: UIViewController {
+    override open func viewDidLoad() {
         super.viewDidLoad()
         
         self.view.backgroundColor = .cyan
